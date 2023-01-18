@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Hello Extensions",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "action": {
+        "default_popup": "Home.html",
+        "Home" : "Home.html",
+        "default_icon": "/img/icon_ex.jpg"
+      },
+      "content_scripts" : [
+        {
+            "matches" : ["https://www.messenger.com/*"], 
+            "css" : ["/css/style.css"],
+            "js" : ["/js/script.js"]
+        }
+      ],
+      "permissions": [
+        "tabs"
+      ],
+      "chrome_url_overrides" : {
+        "newtab": "Home.html"
+      }
+  }
