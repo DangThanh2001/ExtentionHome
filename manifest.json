@@ -8,13 +8,6 @@
         "Home" : "Home.html",
         "default_icon": "/img/icon_ex.jpg"
       },
-      "content_scripts" : [
-        {
-            "matches" : ["https://www.messenger.com/*"], 
-            "css" : ["/css/style.css"],
-            "js" : ["/js/script.js"]
-        }
-      ],
       "permissions": [
         "tabs"
       ],

@@ -1,3 +1,27 @@
-html body{
-    background-color: aquamarine;
+@font-face {
+    font-family: 'comic';
+    src: url(VNF-Comic\ Sans.ttf);
+}
+
+body {
+    background-color: blueviolet;
+    font-family: 'comic';
+}
+
+img.img-logo {
+    width: 150px;
+    height: 150px;
+}
+
+a.block {
+    /* background-color: rgb(138, 65, 207); */
+    display: block;
+}
+
+.pt-2.pb-2.container.border:hover {
+    background-color: rgb(182, 112, 249);
+}
+
+.bigFont{
+    font-size: 5em;
 }
