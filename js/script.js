@@ -31,3 +31,8 @@ function showTime(){
 }
  
 showTime();
+
+var notReady = document.getElementById('continue');
+var notReady2 = document.getElementById('continue2');
+notReady.addEventListener('click', tobeContinue);
+notReady2.addEventListener('click', tobeContinue);

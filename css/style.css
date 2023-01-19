@@ -3,9 +3,13 @@
     src: url(VNF-Comic\ Sans.ttf);
 }
 
-body {
-    background-color: blueviolet;
+.needBg {
+    /* background-color: rgb(168, 100, 232); */
+    background-image: url("/img/102182552_p0_master1200.jpg");
     font-family: 'comic';
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
 }
 
 img.img-logo {
@@ -14,14 +18,25 @@ img.img-logo {
 }
 
 a.block {
-    /* background-color: rgb(138, 65, 207); */
+    background-color: rgba(255, 255, 255, 0.071);
+    border-radius: 5px;
     display: block;
 }
 
-.pt-2.pb-2.container.border:hover {
-    background-color: rgb(182, 112, 249);
+a.block:hover{
+    background-color: rgba(255, 255, 255, 0.764);
+    color: rgb(108, 53, 164) !important;
 }
+
+/* .pt-2.pb-2.container.border:hover {
+    background-color: rgba(255, 255, 255, 0.764);
+} */
 
 .bigFont{
     font-size: 5em;
+}
+
+.footer{
+    border-top: solid 1px rgb(255, 255, 255);
+    background-color: rgb(55, 36, 61);
 }

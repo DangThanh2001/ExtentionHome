@@ -1,17 +1,25 @@
 {
-    "manifest_version": 3,
-    "name": "Hello Extensions",
-    "description": "Base Level Extension",
-    "version": "1.0",
-    "action": {
-        "default_popup": "Home.html",
-        "Home" : "Home.html",
-        "default_icon": "/img/icon_ex.jpg"
-      },
-      "permissions": [
-        "tabs"
-      ],
-      "chrome_url_overrides" : {
-        "newtab": "Home.html"
-      }
+  "manifest_version": 3,
+  "name": "Change newtab extension",
+  "description": "I hate ads of browser, so I did this",
+  "version": "1.0",
+  "action": {
+    "default_popup": "Popup.html",
+    "Home": "Home.html",
+    "default_icon": "/img/icon_ex.jpg"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "Home.html"
+  },
+  "background.service_worker": {
+    "scripts": [
+      "/js/bootstrap.js",
+      "/js/jquery-3.6.3.js",
+      "/js/script.js"
+    ],
+    "persistent": false
   }
+}
