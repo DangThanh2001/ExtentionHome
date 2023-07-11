@@ -1,20 +1,34 @@
 [
     {
-        "name": "thanh",
-        "link": "https://www.w3schools.com/js/js_json_stringify.asp"
+        "name": "Messenger",
+        "link": "https://www.messenger.com/t/1255579131148015"
     },
     {
-        "name": "thanh",
-        "link": "https://www.w3schools.com/js/js_json_stringify.asp"
+        "name": "Youtube",
+        "link": "https://www.youtube.com/"
     },
     {
-        "name": "thanh",
-        "link": "https://www.w3schools.com/js/js_json_stringify.asp"
-    },    {
-        "name": "thanh",
-        "link": "https://www.w3schools.com/js/js_json_stringify.asp"
-    },    {
-        "name": "thanh",
-        "link": "https://www.w3schools.com/js/js_json_stringify.asp"
+        "name": "Mail",
+        "link": "https://mail.google.com/mail/u/0/?hl=en/#inbox"
+    },
+    {
+        "name": "Git",
+        "link": "https://github.com/"
+    },
+    {
+        "name": "Login Genshin",
+        "link": "https://act.hoyolab.com/ys/event/signin-sea-v3/index.html?act_id=e202102251931481&utm_source=hoyolab&utm_medium=tools&lang=vi-vn&bbs_theme=light&bbs_theme_device=1"
+    },
+    {
+        "name": "Google Driver",
+        "link": "https://drive.google.com/drive/u/0/my-drive"
+    },
+    {
+        "name": "Google Translate",
+        "link": "https://translate.google.com/?hl=vi"
+    },
+    {
+        "name": "Fap",
+        "link": "https://fap.fpt.edu.vn/"
     }
 ]
