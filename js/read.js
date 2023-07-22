@@ -20,4 +20,9 @@ $(document).ready(function () {
       });
     })
     .catch(error => console.error(error));
+
+  $('#btnWrite').click(function (e) {
+    e.preventDefault();
+    
+  });
 });

@@ -19,7 +19,7 @@ img.img-logo {
     height: 150px;
 }
 
-a.block {
+.block {
     background-color: rgba(58, 58, 58, 0.504);
     border-radius: 5px;
     display: block;
@@ -34,6 +34,15 @@ a.block:hover {
 
 .noPad {
     padding: 0 !important;
+}
+
+.white{
+    color: white !important;
+    border-color: white !important;
+}
+
+.noBgColor{
+    background-color: rgba(240, 248, 255, 0) !important;
 }
 
 .changeBorder:hover {
